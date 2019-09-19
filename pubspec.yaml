@@ -1,0 +1,54 @@
+name: beatmaker
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.13.2
+
+  rxdart: ^0.22.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/drums/
+    - assets/sounds/bass/
+    - assets/sounds/synth/
+    - assets/sounds/fx/
+
+  fonts:
+    - family: Splice
+      fonts:
+        - asset: fonts/Splice-Regular.otf
+          weight: 400
+        - asset: fonts/Splice-Italic.otf
+          style: italic
+        - asset: fonts/Splice-Bold.otf
+          weight: 600
+        - asset: fonts/Splice-ExtraBold.otf
+          weight: 900
+    - family: SDSIcons
+      fonts:
+        - asset: fonts/SDSIcons.ttf
+    - family: ModernEraMono
+      fonts:
+        - asset: fonts/ModernEraMono-Regular.otf
+          weight: 400
+        - asset: fonts/ModernEraMono-Bold.otf
+          weight: 600

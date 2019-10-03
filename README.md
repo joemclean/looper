@@ -1,4 +1,4 @@
-# beatmaker
+# Looper
 
 A new Flutter project.
 
